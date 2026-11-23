@@ -1,0 +1,32 @@
+# Build output
+build/
+dist/
+release/
+*.spec
+.build_tmp/
+.build*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Runtime data (per machine, never committed)
+storage/
+exports/
+*.db
+*.xlsx
+
+# Agent scratch
+.freebuff/
+.cloud-attachments/
+.tmp_*
+
+# OS / editor noise
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
